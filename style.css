@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #adbdcc;
+    transition: border-bottom .2s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid #adbdcc;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li, p {
+    margin: 7px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+html {
+    background-color: #0a2540;
+    color: #adbdcc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+}
+
+main {
+    max-width: 300px;
+}
+
+aside {
+    border: 1px solid #0f395e;
+    background-color: rgb(6, 41, 67);
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+
+h1 {
+    color: #0de4e4;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    margin: 15px 0;
+}
+
+a.mail {
+    background-color: #0de4e4;
+    color: #0a2540;
+    border-radius: 16px;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color .2s ease;
+}
+
+a.mail:hover {
+    background-color: white;
+    border: none;
+}
+
+a.mail::after {
+    content: ' \0000bb';
+}
+
+footer {
+    margin: 20px
+}
