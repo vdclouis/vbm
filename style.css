@@ -72,7 +72,7 @@ h2 {
 
 a.btn {
     border-radius: 16px;
-    padding: 7px 20px;
+    /* padding: 7px 20px; */
     display: inline-block;
     margin-top: 20px;
 }
