@@ -345,7 +345,7 @@ nav.main-nav > a.nav-cta:hover{background:#5BDCFF;}
 @media (max-width:700px){.callout{grid-template-columns:1fr;}}
 
 /* ---------- facility photo (full width) ---------- */
-.facility-photo{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);}
+.facility-photo{border-radius:var(--radius);overflow:hidden;}
 .facility-photo img{width:100%;display:block;}
 .facility-caption{
   padding:13px 18px;background:var(--graphite);color:#B8C2C7;
