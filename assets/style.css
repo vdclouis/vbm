@@ -158,6 +158,13 @@ nav.main-nav > a.nav-cta:hover{background:#5BDCFF;}
   .nav-toggle{display:block;}
 }
 
+@media (max-width:400px){
+  .site-header .wrap{gap:10px;}
+  .logo{font-size:.9rem;}
+  .header-actions{gap:12px;}
+  .lang-switch{font-size:.66rem;gap:3px;}
+}
+
 /* ---------- breadcrumb ---------- */
 .breadcrumb{
   font-family:var(--mono);font-size:.76rem;color:var(--slate);
@@ -240,6 +247,9 @@ nav.main-nav > a.nav-cta:hover{background:#5BDCFF;}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
 @media (max-width:960px){.grid-4{grid-template-columns:repeat(2,1fr);}.grid-3{grid-template-columns:repeat(2,1fr);}}
 @media (max-width:640px){.grid-4,.grid-3,.grid-2{grid-template-columns:1fr;}}
+
+.quote-layout{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;}
+@media (max-width:860px){.quote-layout{grid-template-columns:1fr;gap:36px;}}
 
 .card{
   background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
