@@ -334,6 +334,14 @@ nav.main-nav > a.nav-cta:hover{background:#5BDCFF;}
 }
 @media (max-width:700px){.callout{grid-template-columns:1fr;}}
 
+/* ---------- facility photo (full width) ---------- */
+.facility-photo{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);}
+.facility-photo img{width:100%;display:block;}
+.facility-caption{
+  padding:13px 18px;background:var(--graphite);color:#B8C2C7;
+  font-family:var(--mono);font-size:.76rem;letter-spacing:.04em;
+}
+
 /* ---------- resource / kennisbank cards ---------- */
 .res-card{border:1px solid var(--line);border-radius:var(--radius);padding:24px;background:var(--paper);}
 .res-card .eyebrow{font-size:.68rem;}
