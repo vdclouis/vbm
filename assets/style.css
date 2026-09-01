@@ -342,6 +342,22 @@ nav.main-nav > a.nav-cta:hover{background:#5BDCFF;}
   font-family:var(--mono);font-size:.76rem;letter-spacing:.04em;
 }
 
+/* ---------- cookie consent banner ---------- */
+.cookie-banner{
+  position:fixed;left:0;right:0;bottom:0;z-index:200;
+  background:var(--graphite);border-top:1px solid rgba(255,255,255,.12);
+  padding:18px 24px;box-shadow:0 -8px 24px rgba(0,0,0,.18);
+  transform:translateY(110%);transition:transform .3s ease;
+}
+.cookie-banner.visible{transform:translateY(0);}
+.cookie-banner-inner{
+  max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;
+}
+.cookie-banner p{color:#B8C2C7;font-size:.86rem;margin:0;max-width:640px;}
+.cookie-banner a{color:var(--cyan);}
+.cookie-banner-actions{display:flex;gap:12px;flex-shrink:0;}
+@media (max-width:640px){.cookie-banner-inner{flex-direction:column;align-items:flex-start;}.cookie-banner-actions{width:100%;}.cookie-banner-actions .btn{flex:1;}}
+
 /* ---------- resource / kennisbank cards ---------- */
 .res-card{border:1px solid var(--line);border-radius:var(--radius);padding:24px;background:var(--paper);}
 .res-card .eyebrow{font-size:.68rem;}
